@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <H2>STUDENT DETAILS</H2>
+    
+    <table border="3.0" cellspacing="5" cellpadding="5">
+        <!--first row-->
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>COURSE</th>
+        </tr>
+
+        <!--SECOND ROW-->
+        <tr>
+            <td>Jane</td>
+            <td>20</td>
+            <td>IT</td>
+      </tr>
+
+      <!--third row-->
+      <tr>
+        <td>Mary</td>
+        <td>19</td>
+        <td>Bcom</td>
+      </tr>
+
+      <!--fourth row-->
+      <tr>
+        <td>John</td>
+        <td>21</td>
+        <td>IR</td>
+      </tr>
+    </table>
+ <h2>Rowspan</h2>
+ <table border="1" cellpadding="5" cellspacing="5">
+    <tr>
+        <th>Name</th>
+        <th>Course</th>
+    </tr>
+    <tr>
+        <td>Mary</td>
+        <td rowspan="2">IT</td>
+    </tr>
+    <tr>
+        <td>Mark</td>
+    </tr>
+    <tr>
+        <td>Moses</td>
+        <td>BCOM</td>
+    </tr>
+ </table>
+ <H2>Column span</H2>
+ <table border="1" cellspacing="5" cellpading="5">
+    <tr>
+        <th colspan="2">full name</th>
+        <th>Age</th>
+    </tr>
+    <!--second row-->
+    <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+        <td>19</td>
+    </tr>
+
+    <!--third row-->
+    <tr>
+        <td>Mark</td>
+        <td>Brian</td>
+        <td>20</td>
+    </tr>
+ </table>
+
+ <!--CREATING columns and rows-->
+
+<h2>COLUMN & ROWS</h2>
+<table border="1" cellspacing="5" cellpadding="5" >
+    <tr>
+        <td rowspan="3">Table 1</td>
+        <td colspan="2">Table 1</td>
+    </tr>
+    <!--second row-->
+    <tr>
+        <td>A</td>
+        <td>B</td>
+    </tr>
+
+    <!--Third row-->
+    <tr>
+        <td>C</td>
+        <td>D</td>
+    </tr>
+
+    <!--FOURTH ROW-->
+    <tr>
+        <td>Total</td>
+        <td colspan="2">ABCD</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
